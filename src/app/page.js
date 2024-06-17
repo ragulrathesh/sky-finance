@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page.css";
 import  Header  from "./components/header/page";
 import Footer from "./components/footer/page"
-import Accordion from "./components/Accordian/Accordian";
+import Accordion from "./components/Accordian/page";
 
 export default function Home() {
   return (
