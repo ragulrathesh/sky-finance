@@ -1,0 +1,27 @@
+.logo{
+    display:grid;
+}
+.getbutton{
+    display: grid;
+    padding: 10px;
+}
+.getbutton button{
+    display: grid;
+    padding: 10px;
+    background: var(--Primary, #00A9FF);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+}
+.header{
+    display: grid;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    padding: 20px;
+   
+    border-bottom:0.5px solid  #00A9FF;
+    margin: 0% 2.5% 0% 2.5% ;
+
+}

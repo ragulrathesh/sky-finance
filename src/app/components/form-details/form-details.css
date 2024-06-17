@@ -1,0 +1,54 @@
+.animation img:nth-child(2) {
+  display: none;
+}
+
+.page-top {
+  display: grid;
+  padding: 50px 0;
+  align-items: center;
+}
+.page-too-find {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-evenly;
+  padding: 50px 0;
+  align-items: center;
+}
+.page-two-right-grid {
+  display: grid;
+  padding: 0 70px 0 0;
+  row-gap: 20px;
+  max-width: 44rem;
+}
+.page-two-right-grid-para {
+  display: grid;
+  row-gap: 15px;
+}
+.page-two-right-grid-para p:nth-child(1) {
+  color: #333333;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: var(--font-roboto);
+}
+.page-two-right-grid-para p:nth-child(2) {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2rem;
+  font-family: var(--font-work);
+}
+.page-two-right-grid-para p:nth-child(3) {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2rem;
+  font-family: var(--font-work);
+}
+.page-two-right-grid-para p:nth-child(4) {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2rem;
+  font-family: var(--font-work);
+}
+
