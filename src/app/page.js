@@ -14,7 +14,7 @@ export default function Home() {
             <p>WELCOME TO SKY  FINANCIAL</p>
           </div>
           <div className="heading">
-                <h1>Life's a Journey, Fly Confidently with our Protection.</h1>
+                <h1>Life&aposs a Journey, Fly Confidently with our Protection.</h1>
           </div>
           <div className="content">
               <p>At Sky Financial, we specialize in providing comprehensive life insurance and annuity options tailored to meet the unique needs of individuals across all age groups and income levels. As a licensed provider in all 50 states, we are dedicated to helping clients nationwide secure their financial futures with innovative insurance solutions.<br/> Explore our website to learn more about our products and how we can help you achieve peace of mind and financial security.</p>
@@ -33,7 +33,7 @@ export default function Home() {
       <div className="body-content">
         <div className="hero">
            <div className="hero-img">
-              <img src="/hero-img.svg"/>
+              <img src="/hero-img.svg" alt="animation-photos"/>
            </div>
            <div className="hero-content">
              <p className="hero-msg">WHO WE ARE?</p>
@@ -46,7 +46,7 @@ export default function Home() {
         <div className="chart-border"></div>
         <div className="boxes">
           <div className="box-one">
-            <img src="/Annuities.svg"/>
+            <img src="/Annuities.svg" alt="annuities-logo"/>
             <p className="heading-one">ANNUTIES</p>  
             <p className="heading-two">Secure Your Retirement</p>
             <p className="p-one">
@@ -63,14 +63,14 @@ export default function Home() {
                   worry-free future.
                 </p>
                 <p className="p-three">
-                  Whether you're looking for immediate income or a deferred
+                  Whether you&aposre looking for immediate income or a deferred
                   annuity to supplement your retirement savings, our team of
                   experts will help you navigate the options and find the right
                   solution for your needs.
                 </p> 
           </div>
           <div className="box-two">
-          <img src="/lifeinsurance.svg"/>
+          <img src="/lifeinsurance.svg" alt="lifeinsurance-logo"/>
           <p className="heading-one">Life Insurance</p>
           <p className="heading-two">Protecting What Matters Most</p>
                 <p className="p-one">
@@ -79,7 +79,7 @@ export default function Home() {
                 ensuring you and your family can face life's uncertainties with confidence.
                 </p>
                 <p className="p-two">
-                Whether you're a young family just starting out or a retiree looking to leave a legacy,
+                Whether you&aposre a young family just starting out or a retiree looking to leave a legacy,
                  our experienced agents will work closely with you to understand your needs and goals, 
                  and recommend a policy that fits your budget and lifestyle.
                 </p>
@@ -88,7 +88,7 @@ export default function Home() {
                 </p>
           </div>
           <div className="box-three">
-          <img src="/taxbenefit.svg"/>
+          <img src="/taxbenefit.svg" alt="tax-logo"/>
           <p className="heading-one">Tax Benefit Programs</p>
           <p className="heading-two">Maximize Your Savings</p>
                 <p className="p-one">
@@ -193,7 +193,7 @@ export default function Home() {
       </div>
       <div className="question-sec">
         <div className="accordian">
-       
+        {/* <Accordion/> */}
         <Accordion
               title="How much life insurance do I actually need?"
               content={
@@ -207,7 +207,7 @@ export default function Home() {
                     times your annual income.
                   </p>
                   <p>
-                    owever, it's crucial to consider your specific
+                    owever, it&aposs crucial to consider your specific
                     circumstances, such as outstanding debts, education expenses
                     for dependents, and future financial goals
                   </p>
@@ -253,7 +253,7 @@ export default function Home() {
                   </p>
                   <p>
                     Factors such as the type of policy, your health, and the
-                    insurer's underwriting process influence the timeline.
+                    insurer&aposs underwriting process influence the timeline.
                   </p>
                   <p>
                     Generally, simpler policies like term life insurance may be
@@ -282,7 +282,7 @@ export default function Home() {
                     it expire.
                   </p>
                   <p>
-                    It's important to review your options with your insurance
+                    It&aposs important to review your options with your insurance
                     provider to determine the best course of action based on
                     your current needs and financial situation.
                   </p>

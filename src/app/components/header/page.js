@@ -4,7 +4,7 @@ export default function page(){
         <div className="header">
          
              <div className="logo">
-               <img src="/Logo.svg"/>
+               <img src="/Logo.svg" alt="main-logo"/>
             </div>
            <div className="getbutton">
                <button>Get in touch</button>
