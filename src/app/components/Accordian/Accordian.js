@@ -15,8 +15,8 @@ const Accordion = ({ title, content }) => {
       <div className="accordion-title" onClick={toggleAccordion}>
         <h2>{title}</h2>
         <span>
-          {isOpen ? 
-            <img src="/arrow-down.svg" />
+          {isOpen ? (
+            <img src="/arrow-down.svg" />)
            : (
             <img src="/arrow-up.svg" />
           )}
