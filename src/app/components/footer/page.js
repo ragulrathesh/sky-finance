@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import Link from "next/link";
 export default function page(){
     return(
         <div className="main-footer">
@@ -36,8 +37,9 @@ export default function page(){
                    <p>© 2024 SKY FINANCIAL, New York, NY. All Rights Reserved.</p>
                  </div>
                 <div   className="footer-terms">
-                    <p>Terms of use</p>
-                    <p>Privacy & other policies</p>
+                    <Link href="/components/terms">Terms of use</Link>
+                    <Link href="/components/privacy">Privacy & other policies</Link>
+                   
                 </div>
             </div>
         </div>
