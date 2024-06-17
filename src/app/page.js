@@ -14,7 +14,7 @@ export default function Home() {
             <p>WELCOME TO SKY  FINANCIAL</p>
           </div>
           <div className="heading">
-                <h1>Life&aposs a Journey, Fly Confidently with our Protection.</h1>
+                <h1>Life&apos s a Journey, Fly Confidently with our Protection.</h1>
           </div>
           <div className="content">
               <p>At Sky Financial, we specialize in providing comprehensive life insurance and annuity options tailored to meet the unique needs of individuals across all age groups and income levels. As a licensed provider in all 50 states, we are dedicated to helping clients nationwide secure their financial futures with innovative insurance solutions.<br/> Explore our website to learn more about our products and how we can help you achieve peace of mind and financial security.</p>
