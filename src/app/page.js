@@ -14,7 +14,7 @@ export default function Home() {
             <p>WELCOME TO SKY  FINANCIAL</p>
           </div>
           <div className="heading">
-                <h1>Life&apos s a Journey, Fly Confidently with our Protection.</h1>
+                <h1>Life&apos;s a Journey, Fly Confidently with our Protection.</h1>
           </div>
           <div className="content">
               <p>At Sky Financial, we specialize in providing comprehensive life insurance and annuity options tailored to meet the unique needs of individuals across all age groups and income levels. As a licensed provider in all 50 states, we are dedicated to helping clients nationwide secure their financial futures with innovative insurance solutions.<br/> Explore our website to learn more about our products and how we can help you achieve peace of mind and financial security.</p>
@@ -64,7 +64,7 @@ export default function Home() {
                   worry-free future.
                 </p>
                 <p className="p-three">
-                  Whether you&aposre looking for immediate income or a deferred
+                  Whether you&apos;re looking for immediate income or a deferred
                   annuity to supplement your retirement savings, our team of
                   experts will help you navigate the options and find the right
                   solution for your needs.
@@ -77,10 +77,10 @@ export default function Home() {
                 <p className="p-one">
                 Comprehensive Coverage for Peace of Mind:<br/>
                 Our life insurance plans offer robust protection, 
-                ensuring you and your family can face life&aposs uncertainties with confidence.
+                ensuring you and your family can face life&apos;s uncertainties with confidence.
                 </p>
                 <p className="p-two">
-                Whether you&aposre a young family just starting out or a retiree looking to leave a legacy,
+                Whether you&apos;re a young family just starting out or a retiree looking to leave a legacy,
                  our experienced agents will work closely with you to understand your needs and goals, 
                  and recommend a policy that fits your budget and lifestyle.
                 </p>
@@ -98,7 +98,7 @@ export default function Home() {
                    beneficiaries tax-free, providing them with financial security without the burden of taxes.
                 </p>
                 <p className="p-two">
-                  Similarly, annuities offer tax-deferred growth, meaning you won&apost pay taxes on your
+                  Similarly, annuities offer tax-deferred growth, meaning you won&apos;t pay taxes on your
                   earnings until you start receiving income. This allows your retirement savings to 
                   grow faster and gives you more control over when you pay taxes.
                 </p>
@@ -117,7 +117,7 @@ export default function Home() {
             towards financial security?</h1>
           <p className="form-msg-para">
           Contact Sky Financial today to schedule a consultation with one of our<br/>
-          experienced agents. We&aposre here to answer your questions, address your <br/>
+          experienced agents. We&apos;re here to answer your questions, address your <br/>
           concerns, and help you find the perfect insurance solutions for your needs
           </p>
         </div>
@@ -204,11 +204,11 @@ export default function Home() {
                     factors like your income, debts, and future expenses.
                   </p>
                   <p>
-                    A general rule of thumb is to aim for coverage that&aposs 5-10
+                    A general rule of thumb is to aim for coverage that&apos;s 5-10
                     times your annual income.
                   </p>
                   <p>
-                    owever, it&aposs crucial to consider your specific
+                    owever, it&apos;s crucial to consider your specific
                     circumstances, such as outstanding debts, education expenses
                     for dependents, and future financial goals
                   </p>
@@ -221,7 +221,7 @@ export default function Home() {
               }
             />
             <Accordion
-              title="How can I be sure I&aposm getting the best rates?"
+              title="How can I be sure I&apos;m getting the best rates?"
               content={
                 <div className="accordion-content">
                   <p>
@@ -233,7 +233,7 @@ export default function Home() {
                     the most competitive offers tailored to your needs.
                   </p>
                   <p>
-                    Our transparent approach means you&aposll always know you&aposre
+                    Our transparent approach means you&apos;ll always know you&apos;re
                     getting the best deal available.
                   </p>
                   <p>
@@ -254,7 +254,7 @@ export default function Home() {
                   </p>
                   <p>
                     Factors such as the type of policy, your health, and the
-                    insurer&aposs underwriting process influence the timeline.
+                    insurer&apos;underwriting process influence the timeline.
                   </p>
                   <p>
                     Generally, simpler policies like term life insurance may be
@@ -283,7 +283,7 @@ export default function Home() {
                     it expire.
                   </p>
                   <p>
-                    It&aposs important to review your options with your insurance
+                    It&apos;s important to review your options with your insurance
                     provider to determine the best course of action based on
                     your current needs and financial situation.
                   </p>
@@ -301,7 +301,7 @@ export default function Home() {
                 <div className="accordion-content">
                   <p>
                     To ensure your life insurance adequately protects your loved
-                    ones, start by assessing your family&aposs financial needs and
+                    ones, start by assessing your family&apos;s financial needs and
                     future obligations.
                   </p>
                   <p>
@@ -319,7 +319,7 @@ export default function Home() {
                   </p>
                   <p>
                     Rest assured, our commitment to personalized guidance
-                    ensures your loved ones are safeguarded against life&aposs
+                    ensures your loved ones are safeguarded against life&apos;s
                     uncertainties.
                   </p>
                 </div>
