@@ -6,6 +6,8 @@
     padding: 10px;
 }
 .getbutton button{
+    width: 135px;
+    height: 40px;
     display: grid;
     padding: 10px;
     background: var(--Primary, #00A9FF);
@@ -24,4 +26,52 @@
     border-bottom:0.5px solid  #00A9FF;
     margin: 0% 2.5% 0% 2.5% ;
 
+}
+ 
+/* Tab view */
+
+@media (min-width: 650px) and (max-width: 1024px){
+    .logo{
+        width: 140px;
+        height: 35px;
+    }
+    .getbutton  button{
+        width: 100px;
+        height: 35px;
+        border-radius: 10px;
+        gap: 10px;
+        
+        border: none;
+        outline: none;
+        color: white;
+        background: #00A9FF;
+        
+    }
+}
+
+/* Mobile view */
+@media (min-width: 320px) and (max-width: 650px){
+.logo{
+    width: 145px;
+    height: 30px;
+}
+.header{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px 25px 0px ;
+}
+.getbutton button{
+    width: 125px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 18px 14px  18px;
+    gap: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    background: #00A9FF;
+}
 }
