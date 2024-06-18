@@ -38,14 +38,14 @@ export default function Home() {
            </div>
            <div className="hero-content">
              <p className="hero-msg">WHO WE ARE?</p>
-             <div className="hero-para">
+             <div he></div>
              <p>Your Trusted Insurance Partner.</p>
              <p>Sky Financial is a leading provider of life insurance and annuity solutions nationwide. With years of experience helping clients achieve financial security, we have earned a reputation for excellence and reliability in the insurance industry.<br/>Our dedicated team of agents is committed to providing personalized service and innovative solutions tailored to meet the unique needs of each client. We understand that every individual&aposs financial situation is different, and we take the time to listen and recommend the best options for your needs and goals.<br/>At Sky Financial, we are passionate about helping our clients secure their financial futures and enjoy peace of mind knowing that their loved ones are protected.</p>
-           </div></div>
+           </div>
         </div>
       </div>
       <div className="chart">
-        {/* <div className="chart-border"></div>
+        <div className="chart-border"></div>
         <div className="boxes">
           <div className="box-one">
             <img src="/Annuities.svg" alt="annuities-logo"/>
@@ -109,10 +109,10 @@ export default function Home() {
                   liability while maximizing your savings potential.
                 </p>
           </div>
-        </div> */}
+        </div>
       </div>
       <div className="form-sec">
-        {/* <div className="form-msg">
+       <div className="form-msg">
           <p className="msg-blue">GET STARTED TODAY</p>
           <h1>Ready to take the next step <br/>
             towards financial security?</h1>
@@ -191,10 +191,10 @@ export default function Home() {
 
 
                 
-        </div> */}
+        </div> */
       </div>
       <div className="question-sec">
-        {/* <div className="accordian">
+        <div className="accordian">
         
         <Accordion
               title="How much life insurance do I actually need?"
@@ -340,7 +340,7 @@ export default function Home() {
          <div className="manimg">
             <img src="/man-img.svg"/>
          </div>
-        </div> */}
+        </div>
 
       </div>
       <div  className="Footer">
