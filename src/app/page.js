@@ -7,7 +7,7 @@ import Accordion from "./components/Accordian/page";
 export default function Home() {
   return (
     <div>
-      
+      <div className="over-all-pages">
       <div className="first-sec">
       <div className="family-image">
         <Header/>
@@ -36,10 +36,11 @@ export default function Home() {
           </div>
        </div>
       </div>
-      {/* <div className="mobile-view">
-        <img src="/familyimg.src"/> */}
+    </div>
+      <div className="mobile-view & Tab view">
+        
 
-         {/* <div className="body">
+         <div className="body">
             <div className="welcome">
                <p>WELCOME TO SKY  FINANCIAL</p>
             </div>
@@ -47,19 +48,21 @@ export default function Home() {
                 <h1>Life&apos;s a Journey, Fly Confidently with our Protection.</h1>
             </div>
            <div className="content">
-                <p>At Sky Financial, we specialize in providing comprehensive life insurance and annuity options tailored to meet the unique needs of individuals across all age groups and income levels. As a licensed provider in all 50 states, we are dedicated to helping clients nationwide secure their financial futures with innovative insurance solutions.<br/> Explore our website to learn more about our products and how we can help you achieve peace of mind and financial security.</p>
+                <p>At Sky Financial, we specialize in providing comprehensive life insurance and annuity options tailored to meet the unique needs of individuals across all age groups and income levels. As a licensed provider in all 50 states, we are dedicated to helping clients nationwide secure their financial futures with innovative insurance solutions.</p> 
+                
+              <p>Explore our website to learn more about our products and how we can help you achieve peace of mind and financial security.</p>
            </div>
            <div className="getintouch">
-             <div classsName="getinmsg">
-                <p>Get in touch</p>
+             <div classsName="getinmsg-div">
+                <p className="getinmsg">Get in touch</p>
             </div>
             <div className="arrow">
                <img src="gettoucharrow.svg" alt="arrow"/>
            </div>
            </div>
-       </div> */}
-      {/* </div> */}
+       </div>
       </div>
+      
       </div>
      <div className="body-content">
         <div className="hero">
@@ -104,7 +107,8 @@ export default function Home() {
                   solution for your needs.
                 </p> 
           </div>
-
+          <div className="boxtwoline">
+          <div className="borderline-one"></div>
           <div className="box-two">
             
           <img src="/lifeinsurance.svg" alt="lifeinsurance-logo"/>
@@ -124,7 +128,8 @@ export default function Home() {
                 With Sky Financial, you can rest assured that your loved ones will be taken care of no matter what the future holds.
                 </p>
           </div>
-          
+          </div>
+          <div className="borderline-two"></div>
           <div className="box-three">
           <img src="/taxbenefit.svg" alt="tax-logo"/>
           <p className="heading-one">Tax Benefit Programs</p>
@@ -150,7 +155,7 @@ export default function Home() {
       <div className="form-sec">
        <div className="form-msg">
           <p className="msg-blue">GET STARTED TODAY</p>
-          <h1>Ready to take the next step <br/>
+          <h1 className="getstartedpara">Ready to take the next step <br/>
             towards financial security?</h1>
           <p className="form-msg-para">
           Contact Sky Financial today to schedule a consultation with one of our<br/>
@@ -159,6 +164,7 @@ export default function Home() {
           </p>
         </div>
         <div className="form">
+          <div classsName="overall-form">
           <div className="firstline">
               <div className="subform">
                 <div className="input-Name">
@@ -211,6 +217,7 @@ export default function Home() {
                 </div>
               </div>
           </div>
+        </div>
           <div className="input-form-msg">
              <div  className="inputgrp">
               <textarea  placeholder="Message"
@@ -385,6 +392,7 @@ export default function Home() {
       </div>
       
     </div>
+</div>
   );
 
 }
