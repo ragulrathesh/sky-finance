@@ -155,6 +155,7 @@ export default function Home() {
       <div className="form-sec">
        <div className="form-msg">
           <p className="msg-blue">GET STARTED TODAY</p>
+          <div className="form-para">
           <h1 className="getstartedpara">Ready to take the next step <br/>
             towards financial security?</h1>
           <p className="form-msg-para">
@@ -162,6 +163,7 @@ export default function Home() {
           experienced agents. We&apos;re here to answer your questions, address your <br/>
           concerns, and help you find the perfect insurance solutions for your needs
           </p>
+        </div>
         </div>
         <div className="form">
           <div classsName="overall-form">
@@ -237,6 +239,7 @@ export default function Home() {
         </div> 
       </div>
       <div className="question-sec">
+        
         <div className="accordian">
         
         <Accordion
@@ -370,6 +373,7 @@ export default function Home() {
               }
             />
         </div>
+      
         <div className="question-content">
          <div className="question-msg">
            <p>FREQUENTLY ASKED QUESTIONS</p>
@@ -384,9 +388,9 @@ export default function Home() {
             <img src="/man-img.svg"/>
          </div>
         </div>
+</div>
 
-
-      </div>
+      
       <div  className="Footer">
         <Footer/>
       </div>
