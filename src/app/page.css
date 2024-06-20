@@ -1,7 +1,15 @@
 .family-image{
+    padding-bottom: 200px;
+    width: 100%;
     background-image: url(../../public//backgroundimg.svg);
     background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
 }
+/* .mobile-view{
+  display: none;
+} */
 .body{
     padding-top: 7%;
     margin: 0% 2.5% 0% 2.5% ;
@@ -45,73 +53,94 @@
     row-gap: 10px;
 
 }
-.arrow{
-    width: 20px;
-    height: 10px;
-    border-left: 20px;
-    border-right: 0px;
-    border-top: 10px;
-    z-index: 1;
+.arrow img{
+  width: 35px;
+  height: 40px;
+  border: 2px;
+
 }
 
 .getintouch{
    padding-top: 40px;
    display:grid;
    grid-auto-flow: column;
+   grid-template-columns: 1fr 13fr;
+   align-items: center;
 }
+
 .hero{
     display: grid;
     grid-auto-flow: column;
-
+    justify-content: space-evenly;
+    padding: 50px 0;
+    align-items: center;
+}
+.hero-content{
+    
+  display: grid;
+  grid-auto-flow: row;
+  padding: 70px 0px 0 0; 
+  row-gap: 10px;
+  max-width: 44rem;
+} 
+.hero-para{
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 10px;
 }
 .hero-msg{
     
-    /* max-width: fit-content;
+    max-width: fit-content;
     border-bottom: 1px solid  #00A9FF;
-    border-top: 1px solid  #00A9FF; */
+    border-top: 1px solid  #00A9FF;
     color: var(--Primary, #00A9FF);
+   
 }
-.hero-content p:nth-child(2){
+
+
+.hero-para-one{
   color: #333333;
   font-size: 40px;
   font-weight: 700;
   font-family: var(--font-roboto);
 }
-.hero-content p:nth-child(3){
+.hero-para-two{
   color: #777777;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.2rem;
-  font-family: var(--font-work);
+  font-size: 15px;
+  font-weight: 300;
+  font-family: var(--font-roboto);
+}
+.hero-para-three{
+  color: #777777;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: var(--font-roboto);
+}
+.hero-para-four{
+  color: #777777;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: var(--font-roboto);
 }
 
-.body-content{
 
-display: grid;
-padding: 50px 0;
-align-items: center;
-}
-.hero-content{
-    
-    display: grid;
-    grid-auto-flow: row;
-   padding: 0 70px 0 0; 
-  row-gap: 10px;
-  max-width: 44rem;
-} 
-/* .hero-msg-para{
+.chart{
   display: grid;
-  row-gap: 15px;
+  justify-items: center;
+  position: relative;
+  padding: 0 0 100px 0;
+}
 
-} */
 .chart-border{
     
-        border: 1px solid rgb(0, 165, 225);
-        height: 80px;
-        width: 880px;
-        border-bottom: none;
-        border-radius: 5px;
+border: 1px solid rgb(0, 165, 225);
+height: 80px;
+width: 880px;
+border-bottom: none;
+border-radius: 5px;
+
 }
+
 .boxes{
 
   display: grid;
@@ -154,12 +183,7 @@ align-items: center;
     row-gap: 5px;
     padding: 30px;
 }
-.chart{
-    display: grid;
-    justify-items: center;
-    position: relative;
-    padding: 0 0 100px 0;
-}
+
 .heading-one {
     color: #777777;
     font-size: 14px;
@@ -384,20 +408,25 @@ align-items: center;
   }
 
   /* mobile View */
-  @media(min-width:320px) and (max-width:650px){
-    .first-sec{
-      max-width: 100%;
+  /* @media(min-width:320px) and (max-width:650px){
+    .desktop-view{
+     display: none;
     }
-    .family-image{
+    family-image{
       height: 340px;
       width: 100%;
       max-width: 100%;
-      background-image: url(../../public/backgroundimg.svg);
+      background-image: url(../../public/familyimg.svg);
       background-size: cover;
       background-position-x: right;
       position: relative;
       overflow: hidden;
     }
+  
+    .first-sec{
+      max-width: 100%;
+    }
+
     .welcome p{
       font-size: 18px;
       letter-spacing: 1px;
@@ -478,14 +507,16 @@ align-items: center;
       display: grid;
       justify-items: center;
     }
+
+     
     .hero-para{
       display: grid;
       row-gap: 30px;
     }
-    .hero-para p:nth-child(2){
+    .hero-para p:nth-child(1){
       color:#777777 ;
       font-size: 18px;
-      font-weight: 35rem;
+      font-weight: 500;
       max-width: 35rem;
       line-height: 22px;
     }
@@ -493,4 +524,4 @@ align-items: center;
 
   }
 
-
+ */

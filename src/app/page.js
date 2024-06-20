@@ -7,15 +7,19 @@ import Accordion from "./components/Accordian/page";
 export default function Home() {
   return (
     <div>
+      
       <div className="first-sec">
       <div className="family-image">
         <Header/>
+      <div className="desktop-view">
         <div className="body">
           <div className="welcome">
             <p>WELCOME TO SKY  FINANCIAL</p>
           </div>
           <div className="heading">
-                <h1>Life&apos;s a Journey, Fly Confidently with our Protection.</h1>
+                <h1>Life&apos;s a Journey,</h1>
+                <h1> Fly Confidently </h1>
+                <h1>with our Protection.</h1>  
           </div>
           <div className="content">
               <p>At Sky Financial, we specialize in providing comprehensive life insurance and annuity options tailored to meet the unique needs of individuals across all age groups and income levels. As a licensed provider in all 50 states, we are dedicated to helping clients nationwide secure their financial futures with innovative insurance solutions.<br/> Explore our website to learn more about our products and how we can help you achieve peace of mind and financial security.</p>
@@ -26,26 +30,55 @@ export default function Home() {
                <p>Get in touch</p>
             </div>
             <div className="arrow">
-                <img src="gettoucharrow.svg" alt="arrow"/>
+                <img src="gettoucharrow.svg" width="50px"
+                  height="50px"   alt="arrow"/>
             </div>
           </div>
        </div>
-      </div></div>
-      <div className="body-content">
+      </div>
+      {/* <div className="mobile-view">
+        <img src="/familyimg.src"/> */}
+
+         {/* <div className="body">
+            <div className="welcome">
+               <p>WELCOME TO SKY  FINANCIAL</p>
+            </div>
+            <div className="heading">
+                <h1>Life&apos;s a Journey, Fly Confidently with our Protection.</h1>
+            </div>
+           <div className="content">
+                <p>At Sky Financial, we specialize in providing comprehensive life insurance and annuity options tailored to meet the unique needs of individuals across all age groups and income levels. As a licensed provider in all 50 states, we are dedicated to helping clients nationwide secure their financial futures with innovative insurance solutions.<br/> Explore our website to learn more about our products and how we can help you achieve peace of mind and financial security.</p>
+           </div>
+           <div className="getintouch">
+             <div classsName="getinmsg">
+                <p>Get in touch</p>
+            </div>
+            <div className="arrow">
+               <img src="gettoucharrow.svg" alt="arrow"/>
+           </div>
+           </div>
+       </div> */}
+      {/* </div> */}
+      </div>
+      </div>
+     <div className="body-content">
         <div className="hero">
            <div className="hero-img">
               <img src="/hero-img.svg" alt="animation-photos"/>
            </div>
            <div className="hero-content">
              <p className="hero-msg">WHO WE ARE?</p>
-             <div he></div>
-             <p>Your Trusted Insurance Partner.</p>
-             <p>Sky Financial is a leading provider of life insurance and annuity solutions nationwide. With years of experience helping clients achieve financial security, we have earned a reputation for excellence and reliability in the insurance industry.<br/>Our dedicated team of agents is committed to providing personalized service and innovative solutions tailored to meet the unique needs of each client. We understand that every individual&aposs financial situation is different, and we take the time to listen and recommend the best options for your needs and goals.<br/>At Sky Financial, we are passionate about helping our clients secure their financial futures and enjoy peace of mind knowing that their loved ones are protected.</p>
+              <div className="hero-para">
+                <p className="hero-para-one">Your Trusted Insurance Partner.</p>
+                <p className="hero-para-two">Sky Financial is a leading provider of life insurance and annuity solutions nationwide. With years of experience helping clients achieve financial security, we have earned a reputation for excellence and reliability in the insurance industry.</p>
+                <p className="hero-para-three"> Our dedicated team of agents is committed to providing personalized service and innovative solutions tailored to meet the unique needs of each client. We understand that every individual&aposs financial situation is different, and we take the time to listen and recommend the best options for your needs and goals.</p>
+                <p className="hero-para-four"> At Sky Financial, we are passionate about helping our clients secure their financial futures and enjoy peace of mind knowing that their loved ones are protected.</p>
+           </div>
            </div>
         </div>
       </div>
       <div className="chart">
-        <div className="chart-border"></div>
+       <div className="chart-border"></div>
         <div className="boxes">
           <div className="box-one">
             <img src="/Annuities.svg" alt="annuities-logo"/>
@@ -71,7 +104,9 @@ export default function Home() {
                   solution for your needs.
                 </p> 
           </div>
+
           <div className="box-two">
+            
           <img src="/lifeinsurance.svg" alt="lifeinsurance-logo"/>
           <p className="heading-one">Life Insurance</p>
           <p className="heading-two">Protecting What Matters Most</p>
@@ -89,6 +124,7 @@ export default function Home() {
                 With Sky Financial, you can rest assured that your loved ones will be taken care of no matter what the future holds.
                 </p>
           </div>
+          
           <div className="box-three">
           <img src="/taxbenefit.svg" alt="tax-logo"/>
           <p className="heading-one">Tax Benefit Programs</p>
@@ -109,7 +145,7 @@ export default function Home() {
                   liability while maximizing your savings potential.
                 </p>
           </div>
-        </div>
+        </div> 
       </div>
       <div className="form-sec">
        <div className="form-msg">
@@ -132,7 +168,7 @@ export default function Home() {
                 <div className="input-grp">
                   <input placeholder="Name"
                   type="text"
-                  // value="Name"
+                  
                   className="input"/>
                 </div>
               </div>
@@ -144,7 +180,7 @@ export default function Home() {
                 <div className="input-grp">
                   <input placeholder="Subject"
                   type="text"
-                  // value="Subject"
+                  
                   className="input"/>
                 </div>
               </div>
@@ -158,7 +194,7 @@ export default function Home() {
                 <div className="input-grp">
                   <input placeholder="E-mail"
                   type="text"
-                  // value="E-mail"
+                  
                   className="input"/>
                 </div>
               </div>
@@ -170,7 +206,7 @@ export default function Home() {
                 <div className="input-grp">
                   <input placeholder="Phone"
                   type="text"
-                  // value="Phone"
+                  
                   className="input"/>
                 </div>
               </div>
@@ -191,7 +227,7 @@ export default function Home() {
 
 
                 
-        </div> */
+        </div> 
       </div>
       <div className="question-sec">
         <div className="accordian">
@@ -341,6 +377,7 @@ export default function Home() {
             <img src="/man-img.svg"/>
          </div>
         </div>
+
 
       </div>
       <div  className="Footer">
