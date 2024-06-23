@@ -7,9 +7,9 @@
     position: relative;
     overflow: hidden;
 }
-/* .mobile-view{
+.mobile-view{
   display: none;
-} */
+}
 .body{
     padding-top: 7%;
     margin: 0% 2.5% 0% 2.5% ;
@@ -528,9 +528,7 @@ border-radius: 5px;
 
 
  @media (min-width: 650px) and (max-width: 1024px) {
-  /* .over{
-    width: 100%;
-  } */
+
   .desktop-view{
     display: none;
   }
@@ -538,10 +536,11 @@ border-radius: 5px;
     height: 100vh;
     max-width: 100%;
     background-image: url(../../public/backgroundimg.svg);
-    background-size: cover;
+  
     background-position-x:right ;
     position: relative;
     overflow: hidden;
+    background-size: cover;
   }
   .welcome{
     border-bottom: 1px solid #00a9ff;
@@ -689,8 +688,15 @@ border-radius: 5px;
   justify-self: center;
   padding: 10px 0 0 0;
  }
- }
+
+
+}
  @media (min-width: 320px) and (max-width: 650px){
+.over-all-pages{
+  width: 100%;
+    display: grid;
+}
+
 .first-sec{
   max-width: 100%;
 }
@@ -969,6 +975,7 @@ border-radius: 5px;
 }
 .form-sec{
   display: grid;
+  grid-auto-flow: row;
     justify-content: center;
 }
 .question-sec{

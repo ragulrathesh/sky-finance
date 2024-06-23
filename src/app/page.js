@@ -37,7 +37,7 @@ export default function Home() {
        </div>
       </div>
     </div>
-      <div className="mobile-view & Tab view">
+      <div className="mobile-view">
         
 
          <div className="body">

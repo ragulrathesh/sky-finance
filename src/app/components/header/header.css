@@ -37,11 +37,12 @@
     }
     
     .getbutton  button{
+        align-content: center;
         width: 100px;
         height: 35px;
         border-radius: 10px;
         gap: 10px;
-        
+        padding: 20px 8px 20px 8px;
         border: none;
         outline: none;
         color: white;
@@ -61,10 +62,10 @@
     grid-auto-flow: column;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 0px 25px 0px ;
+    padding: 24px 0px 24px 0px ;
 }
 .getbutton button{
-    width: 125px;
+    width: 120px;
     height: 40px;
     border-radius: 15px;
     padding: 18px 14px  18px;
@@ -74,5 +75,6 @@
     color: white;
     font-size: 15px;
     background: #00A9FF;
+    align-items: center;
 }
 }
